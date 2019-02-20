@@ -43,17 +43,17 @@
   "jummiterm-theme options."
   :group 'faces)
 
-(defcustom jummiterm-theme-comment-bg t
+(defcustom jummiterm-theme-comment-bg f
   "Use a background for comment lines."
   :type 'boolean
   :group 'jummiterm-theme)
 
-(defcustom jummiterm-theme-comment-italic nil
+(defcustom jummiterm-theme-comment-italic t
   "Enable italics for comments and also disable background."
   :type 'boolean
   :group 'jummiterm-theme)
 
-(defcustom jummiterm-theme-keyword-italic nil
+(defcustom jummiterm-theme-keyword-italic t
   "Enable italics for keywords."
   :type 'boolean
   :group 'jummiterm-theme)
@@ -125,8 +125,8 @@ to 'auto, tags may not be properly aligned. "
         (cblk-ln-bg    (if (eq variant 'dark) (if (true-color-p) "#373040" "#333333") (if (true-color-p) "#ddd8eb" "#dfdfff")))
         (cursor        (if (eq variant 'dark) (if (true-color-p) "#e3dedd" "#d0d0d0") (if (true-color-p) "#100a14" "#121212")))
         (const         (if (eq variant 'dark) (if (true-color-p) "#a45bad" "#d75fd7") (if (true-color-p) "#4e3163" "#8700af")))
-        (comment       (if (eq variant 'dark) (if (true-color-p) "#2aa1ae" "#008787") (if (true-color-p) "#2aa1ae" "#008787")))
-        (comment-light (if (eq variant 'dark) (if (true-color-p) "#2aa1ae" "#008787") (if (true-color-p) "#a49da5" "#008787")))
+        (comment       (if (eq variant 'dark) (if (true-color-p) "#68727c" "#68727c") (if (true-color-p) "#68727c" "#68727c")))
+        (comment-light (if (eq variant 'dark) (if (true-color-p) "#68727c" "#68727c") (if (true-color-p) "#68727c" "#68727c")))
         (comment-bg    (if (eq variant 'dark) (if (true-color-p) "#292e34" "#262626") (if (true-color-p) "#ecf3ec" "#ffffff")))
         (comp          (if (eq variant 'dark) (if (true-color-p) "#c56ec3" "#d75fd7") (if (true-color-p) "#6c4173" "#8700af")))
         (err           (if (eq variant 'dark) (if (true-color-p) "#e0211d" "#e0211d") (if (true-color-p) "#e0211d" "#e0211d")))
