@@ -1,15 +1,17 @@
 ;;; jummiterm-common.el --- Color theme with a dark and light versions.
 
-;; Copyright (C) 2015-2018 Nasser Alshammari
+;; Copyright (C) 2019 James Cherven
 
-;; Author: Nasser Alshammari
-;; URL: <https://github.com/nashamri/jummiterm-theme>
+;; Author: James Cherven
+;; URL: <https://github.com/jcherven/jummiterm-theme>
 ;;
 ;; Version: 0.1
 ;; Keywords: color, theme
 ;; Package-Requires: ((emacs "24"))
 
 ;; Initially created with the help of emacs-theme-generator, <https://github.com/mswift42/theme-creator>.
+;; Forked from spacemacs-theme by Nasser Alshammari
+;; URL: <https://github.com/nashamri/spacemacs-theme>
 
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
