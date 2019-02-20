@@ -1,1 +1,1 @@
-jummiterm-common.el
+jummiterm-dark-theme.el
