@@ -43,7 +43,7 @@
   "jummiterm-theme options."
   :group 'faces)
 
-(defcustom jummiterm-theme-comment-bg f
+(defcustom jummiterm-theme-comment-bg nil
   "Use a background for comment lines."
   :type 'boolean
   :group 'jummiterm-theme)
