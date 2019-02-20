@@ -15,8 +15,6 @@ TODO
 
 The theme has good support for org mode.
 
-![spacemacs-theme-org](img/org.png)
-
 ## Installation
 
 TODO
