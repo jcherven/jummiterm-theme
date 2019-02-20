@@ -1,7 +1,7 @@
-(require 'spacemacs-common)
+(require 'jummiterm-common)
 
-(deftheme spacemacs-dark "Spacemacs theme, the dark version")
+(deftheme jummiterm-dark "jummiterm theme, the dark version")
 
-(create-spacemacs-theme 'dark 'spacemacs-dark)
+(create-jummiterm-theme 'dark 'jummiterm-dark)
 
-(provide-theme 'spacemacs-dark)
+(provide-theme 'jummiterm-dark)

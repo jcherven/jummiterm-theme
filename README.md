@@ -1,31 +1,23 @@
-# Spacemacs-theme
+# jummiterm-theme
 
-[![MELPA](http://melpa.org/packages/spacemacs-theme-badge.svg)](http://melpa.org/#/spacemacs-theme) ![Made with Spacemacs](https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nashamri/spacemacs-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-![spacemacs-theme](img/spacemacs-theme.png)
+Jummiterm is a color theme that I use for all things text-related, influenced heavily by the default Spacemacs color theme.
 
 Spacemacs theme is an Emacs color theme that started as a theme for [spacemacs](https://github.com/syl20bnr/spacemacs).
 The theme comes with dark and light variants and it should work well with 256 color terminals.
 
 ## Screenshots
 
-![spacemacs-theme-preview](img/preview.png)
+TODO
 
 ## Highlights
 
 The theme has good support for org mode.
 
-![spacemacs-theme-org](img/org.png)
-
 ## Installation
 
-You can install it from MELPA by:
-
-```
-M-x package-install RET spacemacs-theme
-```
+TODO
 
 ## Supported modes
 
