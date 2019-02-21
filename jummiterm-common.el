@@ -14,6 +14,7 @@
 ;; URL: <https://github.com/nashamri/spacemacs-theme>
 
 ;; This program is free software: you can redistribute it and/or modify
+
 ;; it under the terms of the GNU General Public License as published by
 ;; the Free Software Foundation, either version 3 of the License, or
 ;; (at your option) any later version.
@@ -123,7 +124,7 @@ to 'auto, tags may not be properly aligned. "
         (cblk-bg       (if (eq variant 'dark) (if (true-color-p) "#2f2b33" "#262626") (if (true-color-p) "#e8e3f0" "#ffffff")))
         (cblk-ln       (if (eq variant 'dark) (if (true-color-p) "#827591" "#af5faf") (if (true-color-p) "#9380b2" "#af5fdf")))
         (cblk-ln-bg    (if (eq variant 'dark) (if (true-color-p) "#373040" "#333333") (if (true-color-p) "#ddd8eb" "#dfdfff")))
-        (cursor        (if (eq variant 'dark) (if (true-color-p) "#e3dedd" "#d0d0d0") (if (true-color-p) "#100a14" "#121212")))
+        (cursor        (if (eq variant 'dark) (if (true-color-p) "#b1951d" "#b1951d") (if (true-color-p) "#100a14" "#121212")))
         (const         (if (eq variant 'dark) (if (true-color-p) "#a45bad" "#d75fd7") (if (true-color-p) "#4e3163" "#8700af")))
         (comment       (if (eq variant 'dark) (if (true-color-p) "#68727c" "#68727c") (if (true-color-p) "#68727c" "#68727c")))
         (comment-light (if (eq variant 'dark) (if (true-color-p) "#68727c" "#68727c") (if (true-color-p) "#68727c" "#68727c")))
